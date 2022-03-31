@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &-1185277303872235520
+AnimatorOverrideController:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Animation
+  m_Controller: {fileID: 9100000, guid: 2c8b7312f36f04157932300782d990e0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3fd1b37d27b754527950ef1a42916157, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 394c49e89739b4d52841d5710d3b7e1d, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232752578b594dac8363ce5618d051fa, type: 3}
+  m_Name: Sit
+  m_EditorClassIdentifier: 
+  m_StateMask: {fileID: 0}
+  m_Entry:
+    m_EntryClip: {fileID: 7400000, guid: bbd2ccab6a3dc45bc9a602a23100931a, type: 2}
+    m_EntryMask: {fileID: 0}
+  m_Exit:
+    m_ExitClip: {fileID: 7400000, guid: 995dabc51a7b149d4b5abc762d19482d, type: 2}
+    m_ExitMask: {fileID: 0}
+  m_Controller: {fileID: -1185277303872235520}
+  m_StateClip: {fileID: 7400000, guid: 394c49e89739b4d52841d5710d3b7e1d, type: 2}

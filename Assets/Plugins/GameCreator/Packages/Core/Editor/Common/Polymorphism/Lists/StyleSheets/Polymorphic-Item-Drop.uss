@@ -1,0 +1,10 @@
+﻿.gc-list-item-drop {
+    height: var(--gc-list-drop-size);
+    background-color: var(--gc-color-bg-darkest);
+    border-color: var(--gc-color-border-default);
+    border-width: var(--gc-common-border-width);
+    margin-top: -1px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: none;
+}

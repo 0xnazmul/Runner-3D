@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0b935016f124151bbd7d3de9dcfa14, type: 3}
+  m_Name: Footsteps_Example2
+  m_EditorClassIdentifier: 
+  m_MaterialSounds:
+    m_LayerMask:
+      serializedVersion: 2
+      m_Bits: 51
+    m_MaterialSounds:
+    - rid: 5735539854195556389
+    - rid: 5735539854195556392
+    - rid: 5735539854195556390
+    - rid: 5735539854195556391
+    m_DefaultSounds:
+      m_Volume: 0.25
+      m_Variations:
+      - {fileID: 8300000, guid: c6f366456dafa4db8b24c4a113f3b525, type: 3}
+      m_Impact:
+        m_Prefab: {fileID: 8894929110622384770, guid: 053042bf44fe74e698466133392d634c, type: 3}
+        m_UsePooling: 1
+        m_Size: 5
+        m_HasDuration: 1
+        m_Duration: 5
+  references:
+    version: 2
+    RefIds:
+    - rid: 5735539854195556389
+      type: {class: MaterialSoundTexture, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Name: Water
+        m_Texture: {fileID: 2800000, guid: ee0c3b7ed86214f41928ddc3a6fad03a, type: 3}
+        m_Impact:
+          m_Prefab: {fileID: 8894929110622384770, guid: 053042bf44fe74e698466133392d634c, type: 3}
+          m_UsePooling: 1
+          m_Size: 5
+          m_HasDuration: 1
+          m_Duration: 5
+        m_Volume: 0.25
+        m_Variations:
+        - {fileID: 8300000, guid: 269b04f4330a8405db296684f67f4705, type: 3}
+    - rid: 5735539854195556390
+      type: {class: MaterialSoundTexture, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Name: Moss
+        m_Texture: {fileID: 2800000, guid: ce44e1794213f4cf8a4e6cba23f5c865, type: 3}
+        m_Impact:
+          m_Prefab: {fileID: 8894929110622384770, guid: 053042bf44fe74e698466133392d634c, type: 3}
+          m_UsePooling: 1
+          m_Size: 5
+          m_HasDuration: 1
+          m_Duration: 5
+        m_Volume: 0.25
+        m_Variations:
+        - {fileID: 8300000, guid: 3f73383876c2242a1bd51282d933a315, type: 3}
+    - rid: 5735539854195556391
+      type: {class: MaterialSoundTexture, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Name: Wood
+        m_Texture: {fileID: 2800000, guid: 454fec7c19087494ba912140ce6b7bb1, type: 3}
+        m_Impact:
+          m_Prefab: {fileID: 8894929110622384770, guid: 053042bf44fe74e698466133392d634c, type: 3}
+          m_UsePooling: 1
+          m_Size: 5
+          m_HasDuration: 1
+          m_Duration: 5
+        m_Volume: 0.25
+        m_Variations:
+        - {fileID: 8300000, guid: 1d65184b1e94342b5b76b90ac68f844b, type: 3}
+    - rid: 5735539854195556392
+      type: {class: MaterialSoundTexture, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Name: Dirt
+        m_Texture: {fileID: 2800000, guid: 9d36d2f3a47b547a784e5f7eb3724ab3, type: 3}
+        m_Impact:
+          m_Prefab: {fileID: 8894929110622384770, guid: 053042bf44fe74e698466133392d634c, type: 3}
+          m_UsePooling: 1
+          m_Size: 5
+          m_HasDuration: 1
+          m_Duration: 5
+        m_Volume: 0.25
+        m_Variations:
+        - {fileID: 8300000, guid: 3ff948dbe50e74933b75d087a5454ff7, type: 3}

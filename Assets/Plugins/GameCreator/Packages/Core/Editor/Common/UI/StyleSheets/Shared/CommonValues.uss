@@ -1,0 +1,30 @@
+﻿* {
+    --gc-common-label-length: 150px;
+    --gc-common-label-width: 147px;
+    --gc-common-label-margin-left: 3px;
+    
+    --gc-common-element-height: 20px;
+
+    --gc-common-border-width: 1px;
+    --gc-common-border-inverse-width: -1px;
+    --gc-common-border-radius: 3px;
+    
+    --gc-common-padding-box: 2px;
+
+    --gc-common-indent-left: 15px;
+    --gc-common-indent-left-negative: -15px;
+
+    --gc-common-space-smallest: 2px;
+    --gc-common-space-smaller: 5px;
+    --gc-common-space-small: 10px;
+    --gc-common-space-default: 20px;
+
+    --gc-list-head-size: 22px;
+    --gc-list-head-image-size: 16px;
+    --gc-list-head-image-margin: 2px;
+
+    --gc-list-body-padding: 2px;
+    --gc-list-body-margins: 2px;
+
+    --gc-list-drop-size: 6px;
+}

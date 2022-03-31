@@ -1,0 +1,31 @@
+﻿#GC-PropertyElement-Head {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#GC-PropertyElement-Head Label {
+    -unity-text-align: middle-left;
+}
+
+#GC-PropertyElement-Head Button {
+    flex: 1 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2px 5px;
+    -unity-text-align: middle-left;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#GC-PropertyElement-Head Button Image {
+    width: var(--gc-list-head-image-size);
+    height: var(--gc-list-head-image-size);
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#GC-PropertyElement-Body-HideLabels { }
+
+#GC-PropertyElement-Body-ShowLabels {
+    padding-left: var(--gc-common-indent-left);
+}

@@ -1,0 +1,3 @@
+.gc-character-skeleton-space {
+    margin-top: var(--gc-common-space-small);
+}

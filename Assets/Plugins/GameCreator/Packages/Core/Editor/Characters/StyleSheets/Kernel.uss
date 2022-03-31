@@ -1,0 +1,39 @@
+﻿* {
+    --gc-character-kernel-head-image-size: 16px;
+    --gc-character-kernel-head-image-margin: 3px;
+}
+
+/* ROOT: --------------------------------------------------------------------------------------- */
+
+.gc-character-kernel-root {
+    margin-top: var(--gc-common-space-smaller);
+}
+
+.gc-character-kernel-head {
+    background-color: var(--gc-color-bg-default);
+
+    border-color: var(--gc-color-border-default);
+    border-width: var(--gc-common-border-width);
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.gc-character-kernel-body {
+    
+}
+
+/* HEAD: --------------------------------------------------------------------------------------- */
+
+.gc-character-kernel-head-preset__button {
+    margin: 0 0 0 auto;
+    padding: 0;
+    border-width: 0 0 0 1px;
+    border-radius: 0;
+}
+
+.gc-character-kernel-head-preset__image {
+    width: var(--gc-character-kernel-head-image-size);
+    height: var(--gc-character-kernel-head-image-size);
+    margin: var(--gc-character-kernel-head-image-margin);
+}

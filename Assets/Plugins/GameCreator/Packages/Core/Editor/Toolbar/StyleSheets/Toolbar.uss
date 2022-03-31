@@ -1,0 +1,31 @@
+#GC-Overlays-Toolbar {
+    
+}
+
+.gc-overlays-toolbar-panel {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 180px;
+}
+
+.gc-overlays-toolbar-horizontal {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.gc-overlays-toolbar-vertical {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#GC-Overlays-Toolbar ToolbarButton {
+    flex-grow: 1;
+    height: 20px;
+    margin: 1px;
+}
+
+#GC-Overlays-Toolbar ToolbarButton Image {
+    width: 16px;
+    height: 16px;
+    margin: auto;
+}

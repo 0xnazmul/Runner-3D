@@ -1,0 +1,23 @@
+#GC-UnityUI-TextReference {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#GC-UnityUI-TextReference Label {
+    flex-basis: var(--gc-common-label-width);
+    margin-left: var(--gc-common-label-margin-left);
+    -unity-text-align: middle-left;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#GC-UnityUI-TextReference-Selector {
+    flex-basis: 70px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#GC-UnityUI-TextReference-Content {
+    flex-grow: 1;
+    flex-shrink: 0;
+}

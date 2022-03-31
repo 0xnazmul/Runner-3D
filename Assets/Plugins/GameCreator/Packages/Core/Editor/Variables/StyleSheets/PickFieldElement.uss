@@ -1,0 +1,19 @@
+﻿#GC-PickField-Head {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 2px;
+}
+
+#GC-PickField-Head Label {
+    -unity-text-align: middle-left;
+}
+
+#GC-PickField-Head Button {
+    flex: 1 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2px 5px;
+    -unity-text-align: middle-left;
+}
