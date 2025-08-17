@@ -64,7 +64,7 @@ AdsManager.ShowInterstitial();
 ```
  
 📂 Project Structure
-Runner-3D/
+```Runner-3D/
 ├── Assets/
 │   ├── Scenes/
 │   │   └── SampleScene.unity
@@ -83,7 +83,9 @@ Runner-3D/
 ├── ProjectSettings/
 └── README.md
 
-###🛠️ How It Works
+```
+
+🛠️ How It Works
 
 PlayerController.cs → Handles player movement, swipe detection & collisions
 
@@ -95,7 +97,7 @@ UIManager.cs → Updates UI elements like score, game over screen
 
 AdsManager.cs → Manages ad integration (monetization ready)
 
-###📈 Why Use Runner-3D?
+📈 Why Use Runner-3D?
 
 ⚡ Save development time with plug-and-play mechanics
 
@@ -105,7 +107,7 @@ AdsManager.cs → Manages ad integration (monetization ready)
 
 🔧 Highly customizable – add your own models, levels, or power-ups
 
-###🤝 Contributing
+🤝 Contributing
 
 Want to improve Runner-3D?
 
@@ -117,11 +119,11 @@ Submit a Pull Request
 
 Bug reports and feature requests are welcome in the Issues section.
 
-###📜 License
+📜 License
 
 This project is released under the MIT License – free for personal and commercial use.
 
-###👨‍💻 Author
+👨‍💻 Author
 
 Developed by @0xnazmul
 ⭐ If you like this project, don’t forget to star the repo and share it!
