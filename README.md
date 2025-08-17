@@ -60,6 +60,8 @@ It’s designed for developers who want to **build hyper-casual games** quickly�
 Configure your Ad IDs and show interstitial ads:  
 ```csharp
 AdsManager.ShowInterstitial();
+
+```
  
 📂 Project Structure
 Runner-3D/
